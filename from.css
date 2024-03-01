@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: linear-gradient(to right, red, yellow);
+    /* height: 100vh; */
+    font-size: 20px;
+}
+
+.from{
+}
+.card{
+    width: 350px;
+    color: black;
+}
+
+.email{
+    margin-top: -30px;
+}
+input{
+    border: 2px solid black;
+    
+}
+
+small{
+    color: red;
+    position: absolute;
+    visibility: hidden;
+}
+
+.fail small{
+    visibility: visible;
+}
+
+button{
+    margin-bottom: -30px;
+}
+
+@media (max-width:400px) {
+    body{
+        font-size: 15px;
+    }
+    .card{
+        width: 250px;
+    }
+}
